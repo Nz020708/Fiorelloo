@@ -1,5 +1,6 @@
-﻿@model Dictionary<string,string>
-
+﻿@model Dictionary<string, string>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
 <header>
     <div class="container">
         <div class="row">
@@ -145,6 +146,23 @@
                                     <li class="">No products in the cart.</li>
                                 </ul>
                             </li>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item">
+                                    @User.Identity.Name
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Account" asp-action="Logout">Sign out</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Account" asp-action="Signin">Sign in</a>
+                                </li>
+                            }
+
+
                         </ul>
                     </div>
 

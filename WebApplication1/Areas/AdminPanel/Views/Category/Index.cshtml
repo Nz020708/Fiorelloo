@@ -14,7 +14,7 @@
                 <div class="card my-4">
                     <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                         <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                            <h6 class="text-white text-capitalize ps-3">Categories table</h6>
+                            <h6 class="text-white text-capitalize ps-3 text-center">Categories table</h6>
                         </div>
                     </div>
                     <div class="card-body px-0 pb-2">
@@ -39,8 +39,8 @@
                                                 <p class="text-sm font-weight-bold mb-0">@ct.Name</p>
                                             </td>
                                             <td>
-                                                <a class="btn btn-link text-danger text-gradient px-3 mb-0" asp-action="Delete"  asp-route-id="@ct.Id"><i class="material-icons text-sm me-2" >delete</i>Delete</a>
-                                                <a class="btn btn-link text-dark px-3 mb-0" asp-action="Update"  asp-route-id="@ct.Id"><i class="material-icons text-sm me-2">edit</i>Update</a>
+                                                <a class="btn btn-link text-danger text-gradient px-3 mb-0" asp-action="Delete"  asp-route-id="@ct.Id"><i class="mdi mdi-delete-sweep" ></i>Delete</a>
+                                                <a class="btn btn-link text-dark px-3 mb-0" asp-action="Update"  asp-route-id="@ct.Id"><i class="mdi mdi-table-edit"></i>Edit</a>
 
                                             </td>
                                         </tr>
@@ -48,7 +48,7 @@
                                     }
                                 </tbody>
                             </table>
-                            <a class="btn btn-success btn-round create" asp-action="Create"> Create Category</a>
+                            <a class="btn btn-dark btn-round create" asp-action="Create"> Create Category</a>
 
                         </div>
                     </div>

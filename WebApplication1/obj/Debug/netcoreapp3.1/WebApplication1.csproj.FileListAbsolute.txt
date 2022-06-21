@@ -464,3 +464,11 @@ C:\Users\99470\Desktop\Fiorelloo\WebApplication1\obj\Debug\netcoreapp3.1\WebAppl
 C:\Users\99470\Desktop\Fiorelloo\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Slider\Create.cshtml.g.cs
 C:\Users\99470\Desktop\Fiorelloo\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
 C:\Users\99470\Desktop\Fiorelloo\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\99470\Desktop\Fiorelloo\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\99470\Desktop\Fiorelloo\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\99470\Desktop\Fiorelloo\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\99470\Desktop\Fiorelloo\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\99470\Desktop\Fiorelloo\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\99470\Desktop\Fiorelloo\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\99470\Desktop\Fiorelloo\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Account\_ValidationPartial.cshtml.g.cs
+C:\Users\99470\Desktop\Fiorelloo\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Account\Signin.cshtml.g.cs
