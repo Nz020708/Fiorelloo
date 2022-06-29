@@ -58,7 +58,7 @@ namespace WebApplication1
             }
             app.UseStaticFiles();
             app.UseRouting();
-         
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {

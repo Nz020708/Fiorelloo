@@ -38,7 +38,7 @@
                                 </div>
                                 <h4>New here?</h4>
                                 <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
-                                <div class="text-danger"asp-validation-summary="ModelOnly"></div>
+                                <div class="text-danger" asp-validation-summary="ModelOnly"></div>
                                 <form class="pt-3" method="post">
                                     <div class="form-group">
                                         <input asp-for="FullName" class="form-control form-control-lg" placeholder="Fullname">
@@ -82,6 +82,7 @@
         <!-- inject:js -->
         <script src="~/admin/js/off-canvas.js"></script>
         <script src="~/admin/js/hoverable-collapse.js"></script>
+        <partial name="_ValidationPartial.cshtml" />
         <script src="~/admin/js/template.js"></script>
         <!-- endinject -->
     </body>

@@ -78,9 +78,14 @@ namespace WebApplication1.Areas.AdminPanel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(int? id,Category category)
         {
+            
             if (category==null)
             {
                 return BadRequest();
+            }
+            if (!ModelState.IsValid)
+            {
+                return View();
             }
             Category categorydb = _db.Categories.Where(ct => !ct.IsDeleted).FirstOrDefault(ct => ct.Id == id);
                 if (categorydb==null)
